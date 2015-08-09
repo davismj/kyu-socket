@@ -1,0 +1,27 @@
+{
+  "name": "kyu-socket",
+  "version": "0.0.1",
+  "description": "Socket server for hosting online, multiplayer Kyu games.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davismj/kyu-socket"
+  },
+  "keywords": [
+    "socketio",
+    "nodejs"
+  ],
+  "author": "Matthew James Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davismj/kyu-socket/issues"
+  },
+  "homepage": "https://github.com/davismj/kyu-socket",
+  "dependencies": {
+    "socket.io": "1.3.x"
+  }
+}
