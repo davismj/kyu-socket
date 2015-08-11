@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "babel-node": "babel-node --stage 0 src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,15 @@
     "url": "https://github.com/davismj/kyu-socket/issues"
   },
   "homepage": "https://github.com/davismj/kyu-socket",
+  "devDependencies": {
+    "del": "1.x.x",
+    "gulp": "3.x.x",
+    "gulp-babel": "5.x.x",
+    "gulp-changed": "1.x.x",
+    "gulp-plumber": "0.x.x",
+    "gulp-nodemon": "2.x.x",
+    "vinyl-paths": "1.x.x"
+  },
   "dependencies": {
     "socket.io": "1.3.x"
   }
